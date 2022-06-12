@@ -36,7 +36,49 @@ header a{
 }
 
 header img{
-    width: 130px;
+    width: 130px;}
+
+.abonnement{
+    display: flex;
 }
 
+.abonnement img{
+    width:50%
+}
 
+.abonnement h2{
+    font-weight:bold;
+}
+
+.abonnement h1{
+    color: #ef5466;
+}
+
+.premium{
+    background-color: #ef5466;
+    color: white;
+    border-radius: 20px;
+    padding: 7px 4px 7px 4px;
+    margin: 8px;
+    width: 200px;
+    height: 3em;
+    border: solid 2px #ef5466;
+    font-weight:bold;
+}
+
+.gratuit{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 7px 4px 7px 4px;
+    margin: 8px;
+    width: 200px;
+    height: 3em;
+    border: solid 2px black;
+    font-weight:bold;
+}
+
+.accesdirects{
+    display: flex;
+    flex-direction: column;
+}
