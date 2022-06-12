@@ -1,3 +1,10 @@
+body{
+    @font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+      }
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -79,6 +86,49 @@ header img{
 }
 
 .accesdirects{
+    display:flex;
+    flex-direction: column;
+}
+
+.description{
+    display: flex;  
+    flex-direction: column;
+}
+
+.description h2{
+    font-size: 2em;
+}
+
+.textes h1{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.textes{
+    display:flex;
+}
+
+.details{
+    display:flex;
+    flex-wrap:wrap;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.deezerdanstel{
+    max-width:250px
+}
+
+.description{
+    display:flex;
+}
+
+
+
+
+.formules{
     display: flex;
     flex-direction: column;
 }
